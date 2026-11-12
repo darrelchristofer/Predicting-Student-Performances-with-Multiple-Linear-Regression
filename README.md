@@ -4,7 +4,7 @@ EDA and Multiple Linear Regression on the Student Performance dataset (10,000 st
 ---
 ## 📌 Case Overview
 
-WE want to know which study habits and background factors go with better academic results, so we can tell students and teachers what to decide and where to put efforts. We are going to build a simple, explainable model that predicts a student’s Performance Index and shows how much each factor contributes through Data Cleaning, EDA, and Modeling.
+We want to know which study habits and background factors go with better academic results, so we can tell students and teachers what to decide and where to put efforts. We are going to build a simple, explainable model that predicts a student’s Performance Index and shows how much each factor contributes through Data Cleaning, EDA, and Modeling.
 
 ---
 
