@@ -27,7 +27,7 @@ Comparing the model
 
 - Past performance is by far the strongest predictor. Previous Scores has a 0.92 correlation with the Performance Index, and each extra previous-score point goes with about +1.02 points.
 - Study time is the second driver and the most controllable one. Each extra hour studied per day goes with about +2.85 points, holding the other features fixed. The average index rises roughly in a straight line from about 44 at 1 hour to about 66 at 9 hours.
-- Sleep, practice papers and extracurricular activities have small effects. Per unit they add only +0.48, +0.19 and +0.61 points.
+- Sleep, practice papers and extracurricular activities have small effects. On a standardized scale (change per one standard deviation), their coefficients are only 0.04, 0.03 and 0.02, compared with 0.92 for Previous Scores and 0.39 for Hours Studied. Per unit they add +0.48, +0.19 and +0.61 points.
 - A simple linear model is enough. In cross-validation, Linear Regression (R² 0.9887) matches Ridge and Lasso and is slightly ahead of Gradient Boosting (0.9878) and Random Forest (0.9850). The more complex models add nothing, so the easier-to-explain model is the right choice.
 
 ---
@@ -36,7 +36,7 @@ Comparing the model
 
 ```
 Predicting-Student-Performances-with-Multiple-Linear-Regression/
-├── Student_Performance_Prediction_with_multiplt_linear_Regression.ipynb   # EDA + modeling + extra analysis
+├── Student_Performance_Prediction_with_Multiple_Linear_Regression.ipynb   # EDA + modeling + extra analysis
 ├── requirements.txt
 ├── Student_Performance.csv                       # download from Kaggle
 └── README.md
